@@ -44,7 +44,7 @@ h1 {
     background-color: #e82516;
     border: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 2rem;
     color: #f3f3f3;
 }
 
@@ -67,7 +67,7 @@ h1 {
     background-color: #f39f4b;
     border: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 2rem;
     color: #f3f3f3;
 }
 
@@ -89,7 +89,7 @@ h1 {
     height: 40%;
     padding-bottom: 20%;
     margin: 5px;
-    border-radius: 20%;
+    border-radius: 30%;
 }
 
 
