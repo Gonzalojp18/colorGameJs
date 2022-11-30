@@ -1,0 +1,90 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        font-size: 1.3em;
+    }
+
+    #message {
+        font-size: .6rem;
+    }
+
+    #reset{
+        padding: .4rem;
+        width: 30%;
+    }
+    #easyButton, #hardButton{
+        padding: .4rem;
+        width: 30%;
+    }
+    .container {
+        width: 80%;
+        height:  100%;
+        margin-left: 4rem;
+    }
+
+    .square {
+        float: left;
+        width: 30%;
+        height: 40%;
+        padding-bottom: 20%;
+        margin: 1rem .5rem 1rem .5rem;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-size: .8rem;
+        color: #f3f3f3;
+    }
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        font-size: 1.4em;
+    }
+    #message {
+        font-size: .6rem;
+    }
+    #reset{
+        padding: .4rem;
+        width: 20%;
+    }
+    #easyButton, #hardButton{
+        padding: .4rem;
+        width: 20%;
+    }
+    .container {
+        width: 80%;
+        height:  100%;
+        margin-left: 5rem;
+    }
+
+    .square {
+        float: left;
+        width: 25%;
+        height: 40%;
+        padding-bottom: 20%;
+        margin: 1rem .5rem 1rem .5rem;
+    }
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 990px) {
+    h1 {
+        font-size: 1.3em;
+    }
+    #message {
+        font-size: .6rem;
+    }
+    #reset{
+        padding: .4rem;
+        width: 15%;
+    }
+    #easyButton, #hardButton{
+        padding: .5rem;
+        width: 15%;
+    }
+}

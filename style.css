@@ -1,0 +1,114 @@
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a0c21;
+}
+
+.header{
+    width: 100%;
+    height: 20vh;
+    background-color: #e82516;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+#stripe {
+    background-color: #f39f4b;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#message {
+    color:#1a0c21;
+    font-family: Georgia;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+#reset{
+    padding: .5rem;
+    width: 10%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: #e82516;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #f3f3f3;
+}
+
+#reset:hover{
+    background-color:#1a0c21;
+    color: #f3f3f3;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+}
+
+#easyButton, #hardButton{
+    padding: .5rem;
+    width: 10%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: #f39f4b;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #f3f3f3;
+}
+
+#easyButton:hover, #hardButton:hover{
+    background-color:#e82516;
+    color: #f3f3f3;
+}
+
+.container {
+    width: 50%;
+    height:  40vh;
+    padding: 1rem;
+    margin: auto;
+}
+
+.square {
+    float: left;
+    width: 30%;
+    height: 40%;
+    padding-bottom: 20%;
+    margin: 5px;
+    border-radius: 20%;
+}
+
+
+#colorDisplay{
+    font-size: 1.5em;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: .8rem;
+    color: #f3f3f3;
+}
+
+.shadow{
+    transition: .6s ease-in;
+}
+
+
